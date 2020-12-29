@@ -1,0 +1,29 @@
+.mar{
+    margin-bottom:0;
+    padding-top: 9rem;
+    }
+.side {
+    flex: 20%;;
+    padding: 20px;
+
+}
+.background{
+    background-color: rgba(151, 198, 166, 0.79);
+}
+.po{
+    position: relative;
+    max-width: 800%;
+    margin: 0 auto;
+}
+.content img{vertical-align: middle;}
+.po .content{
+    position: absolute;
+    text-align: right;
+    bottom: 0;
+    color: white;
+}
+.btn-outline {
+    color: rgba(151, 198, 166, 0.79);
+    border-color: #198754;
+}
+
