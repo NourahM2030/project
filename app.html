@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,14 +18,14 @@
          <div class="col-md-4 ">
              <img  src="image/nic.png" width="100%" height="100%"/>
          </div>
-         <div class="col-md-8 mp-3 background ">
+         <div class="col-md-8 mp-3 bg-light-green ">
              <h2 class="text-center font-monospace pt-5"> My Application </h2>
          </div>
     </div>
 </header>
 <main>
     <div class="row">
-        <div class="col-md-4 side font-monospace background m-3">
+        <div class="col-md-4 side font-monospace bg-light-green m-3">
             <h3 class="text-center pt-5">The Application </h3>
             <p class="text-center p-5">Must be enter UserName and Application Name <d> Disply the list Application role And Uesr Role </d></p>
         </div>
@@ -34,19 +34,19 @@
                 <form >
                     <div class="row mb-2 p-4 ">
                         <div class="col-md-6 mb-3">
-                            <label for="Username" class="font-monospace form-label "> User Name:</label>
-                            <input type="text" class="form-control" id="Username"  required>
+                            <label for="username" class="font-monospace form-label "> User Name:</label>
+                            <input type="text" class="form-control" id="username" required >
                         </div>
                         <div class="col-md-6 ">
-                            <label for="ApplictionName" class="font-monospace form-label "> Application Name: </label>
-                            <select class="form-control form-select" id="ApplictionName" required>
+                            <label for="applictionName" class="font-monospace form-label "> Application Name: </label>
+                            <select class="form-control form-select" id="applictionName" required >
                                 <option value>select..</option>
                                 <option >Name</option>
                             </select>
 
                         </div>
                     </div>
-                    <button class="w-100 btn btn-outline-success mb-3 form-control" type="submit" id="search" > Search</button>
+                    <button class="w-100 btn btn-outline-success mb-3 form-control" type="submit" id="search"  > Search</button>
                 </form>
             </div>
             <div class="border mt-2 p-2">
@@ -59,25 +59,19 @@
                     </thead>
                     <tbody>
                     <tr>
-                        <th scope="row">for Example...</th>
+                        <td scope="row">for Example...</td>
                         <td>for Example...</td>
                     </tr>
-                    </tbody>
-                    <tbody>
                     <tr>
-                        <th scope="row">for Example...</th>
+                        <td scope="row">for Example...</td>
                         <td>for Example...</td>
                     </tr>
-                    </tbody>
-                    <tbody>
                     <tr>
-                        <th scope="row">for Example...</th>
+                        <td scope="row">for Example...</td>
                         <td>for Example...</td>
                     </tr>
-                    </tbody>
-                    <tbody>
                     <tr>
-                        <th scope="row">for Example...</th>
+                        <td scope="row">for Example...</td>
                         <td>for Example...</td>
                     </tr>
                     </tbody>
@@ -87,13 +81,13 @@
     </div>
 </main>
 
-<footer class="modal-footer background m-3" >
+<footer class="bg-light-green m-3" >
     <div class="row container  ">
-        <div class="col-md-6">
-                <p>Name: Nourah AlRabah</p>
-                <p>Phone: (01) 999-1235</p>
-                <p>Fax: (01) 999-1234</p>
-                <p>Email: info@domain.com</p>
+        <div class="col-md-6 pt-5">
+                <dt>Name: Nourah AlRabah</dt>
+                <dt>Phone: (01) 999-1235</dt>
+                <dt>Fax: (01) 999-1234</dt>
+                <dt>Email: info@domain.com</dt>
         </div>
         <div class="col-md-6 text-center mt-5">
             <ul>
@@ -103,10 +97,6 @@
                 <li class="list-inline-item " >
                     <a href="#">Contact</a>
                 </li>
-                <li class="list-inline-item ">
-                    <img  class="figure-img " src="image/nic_logo.png" width="200%" height="200%"/>
-                </li>
-
             </ul>
         </div>
 

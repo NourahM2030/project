@@ -1,8 +1,8 @@
 
 //Enabel or Disabled button - Start
-let username = document.getElementById("Username");
+let username = document.getElementById("username");
 let button = document.getElementById("search");
-let app  = document.getElementById("ApplictionName");
+let app  = document.getElementById("applictionName");
 button.disabled = true;
 
 if(username.value === "")  username.addEventListener('input', disabledButton);
@@ -16,3 +16,5 @@ function disabledButton() {
     }
 }
 //Enabel or Disabled button - End
+
+
